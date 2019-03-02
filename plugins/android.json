@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.game.app"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.game.app"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.game.app"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.game.app"
+    }
+  }
+}

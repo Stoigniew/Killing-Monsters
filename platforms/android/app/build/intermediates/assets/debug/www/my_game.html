@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>Killing Monsters</title>
+        <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+        <!-- Always include the game stylesheet, the Game class, the GameObject class and index.js -->
+        <!-- These four must be included in all games. This code never changes.                -->
+        <link href="css/game.css" rel="stylesheet" type="text/css"/>
+        <script src="js/CanvasGame.js" type="text/javascript"></script>
+        <script src="js/GameObject.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        
+        <!-- ***************************************************************************** -->
+        <!-- *************** THE CODE BELOW CAN BE DIFFERENT FOR EACH GAME *************** -->
+        
+        <!-- Always include the game javascript that matches the html file name --> 
+        <script src="js/my_game.js" type="text/javascript"></script>
+        
+        <!-- Include any classes that extend from GameObject that are used in this game -->
+        <script src="js/MonstersCanvasGame.js" type="text/javascript"></script>
+        <script src="js/ScrollingBackgroundImage.js" type="text/javascript"></script>
+        <script src="js/Skeleton.js" type="text/javascript"></script>
+        <script src="js/Character.js" type="text/javascript"></script>
+        <script src="js/StaticText.js" type="text/javascript"></script>
+        <script src="js/Live.js" type="text/javascript"></script>
+        
+        <!-- ************************* END OF GAME SPECIFIC CODE ************************* -->
+        <!-- ***************************************************************************** -->
+    </head>
+
+    <body>
+        <div id="gameContainer"> <!-- having a container will allow us to have a game that includes elements that are outside of the canvas -->
+            <canvas id="gameCanvas" tabindex="1"></canvas>
+            <button name="restart_btn" id="button" >Restart</button>
+
+            <!-- ***************************************************************************** -->
+            <!-- *************** THE CODE BELOW CAN BE DIFFERENT FOR EACH GAME *************** -->
+            
+            <!-- ************************* END OF GAME SPECIFIC CODE ************************* -->
+            <!-- ***************************************************************************** -->
+        </div>
+    </body>
+</html>
