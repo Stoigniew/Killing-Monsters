@@ -1,3 +1,3 @@
 # Killing Monsters
 
-Android mobile game made in Apache Cordvoa Framework.
+Android mobile game made in Apache Cordova Framework.
